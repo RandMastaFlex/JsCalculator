@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+.container{
+    display:grid;
+    background-color:white;
+    width:50vw;
+    height:50vh;
+    margin:auto;
+}
