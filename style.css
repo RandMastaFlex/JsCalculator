@@ -9,11 +9,28 @@ body{
     height: 100vh;
     display:flex;
     align-items: center;
+    justify-content:center;
 }
-.container{
+.calculator-Container{
     display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
     background-color:white;
     width:50vw;
     height:50vh;
-    margin:auto;
+    padding:0 1rem 1rem 1rem;
+}
+.calculator-Container button{
+    padding:1rem;
+    font-size: 16px;
+    
+}
+.calculator-Screen{
+    font-size: 34px;
+    text-align:right;
+    grid-area: 1 / span 4;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #818D71;
 }
